@@ -1,0 +1,24 @@
+{
+  "socials": [
+    {
+      "name": "LinkedIn",
+      "href": "https://linkedin.com/in/joshua-cong-hu",
+      "icon": "linkedin"
+    },
+    {
+      "name": "GitHub",
+      "href": "https://github.com/JoshuaCongHu",
+      "icon": "github"
+    },
+    {
+      "name": "X",
+      "href": "https://x.com/JoshPrompted",
+      "icon": "x"
+    },
+    {
+      "name": "Email",
+      "href": "mailto:joshuahu2222@gmail.com",
+      "icon": "mail"
+    }
+  ]
+}

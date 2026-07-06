@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "name": "Languages",
+      "skills": ["Python", "Java", "JavaScript", "TypeScript", "SQL", "KQL", "C"]
+    },
+    {
+      "name": "AI / ML",
+      "skills": [
+        "PyTorch",
+        "TensorFlow",
+        "scikit-learn",
+        "LangChain",
+        "FAISS",
+        "RAG",
+        "LoRA",
+        "PPO"
+      ]
+    },
+    {
+      "name": "Web",
+      "skills": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "Express",
+        "REST APIs",
+        "WebSockets"
+      ]
+    },
+    {
+      "name": "Tools",
+      "skills": [
+        "Git",
+        "Docker",
+        "AWS",
+        "PostgreSQL",
+        "Vercel",
+        "Microsoft Fabric"
+      ]
+    },
+    {
+      "name": "Concepts",
+      "skills": [
+        "Multi-Agent Systems",
+        "Agent Orchestration",
+        "Evaluation Frameworks",
+        "AI Guardrails",
+        "Vector Databases"
+      ]
+    }
+  ]
+}

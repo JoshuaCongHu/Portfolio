@@ -1,0 +1,137 @@
+{
+  "career": [
+    {
+      "name": "Breakthrough Tech @ Cornell Tech",
+      "href": "https://breakthroughtech.org",
+      "logo": "/img/btt.png",
+      "positions": [
+        {
+          "title": "AI Fellow (Incoming)",
+          "start": "May 2026",
+          "end": "Apr 2027",
+          "summary": "Year-long Cornell Tech AI fellowship; industry challenge project with companies like Google and Snowflake.",
+          "description": [
+            "Selected for a year-long AI Fellowship with Cornell Tech: intensive ML Foundations training plus a team industry challenge project with companies including Google, Snowflake, and KPMG."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Linde",
+      "href": "https://www.linde.com",
+      "logo": "/img/linde.png",
+      "positions": [
+        {
+          "title": "Software Engineering Intern",
+          "start": "May 2026",
+          "summary": "Cut ~60-70% of planned custom dev by re-platforming reporting onto Microsoft Fabric; 3.17B-row telemetry migration.",
+          "description": [
+            "Redirected reporting platform from a custom CRUD stack to Microsoft Fabric/Power BI by evaluating 4 architecture options against stakeholder-prioritized criteria, eliminating ~60-70% of planned custom development and positioning the platform for AI-agent integration via Fabric-tagged data with LLM-driven reporting as a forward path.",
+            "Designed a strangler-fig migration from an aging on-prem SQL row-store to hybrid KQL/Eventhouse + SQL on Microsoft Fabric for 30,000+ IoT devices on a 3.17B-row telemetry workload; columnar ingest eliminates burst lock contention during mass RTU reconnection and delivers 5-8x storage compression."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Algoverse",
+      "href": "https://algoverseairesearch.org",
+      "logo": "/img/algoverse.png",
+      "positions": [
+        {
+          "title": "LLM Researcher Intern",
+          "start": "May 2026",
+          "summary": "Building an LLM eval framework for multi-agent tool-calling cost vs. quality; paper under review.",
+          "description": [
+            "Built an LLM evaluation framework scoring multi-agent tool-calling on quality-vs-cost across 3 axes (task difficulty, agent heterogeneity, interaction structure); ran GRPO experiments quantifying the cost-accuracy trade-offs behind agent selection (paper under review)."
+          ]
+        },
+        {
+          "title": "LLM Researcher Intern (Columbia, Meta FAIR, UofT, St. Jude Children's Research Hospital)",
+          "start": "May 2025",
+          "end": "Sep 2025",
+          "summary": "2nd author on a NeurIPS 2025 Workshop paper: -12% inference cost at 100% task success on ToolBench.",
+          "description": [
+            "Co-authored a NeurIPS 2025 Workshop paper (LoRA-Guided PPO, second author) on cost-aware agent orchestration; built a controller that decides which sub-agents to invoke under a budget, cutting inference cost-per-success 12% vs. a PPO baseline (24.30 to 21.40) while holding 100% task success on ToolBench.",
+            "Engineered a DAG-based multi-agent orchestrator with on-demand subagents and vector-DB memory; parallel RAG workflows handled tasks 3x larger than a single context window while cutting token cost 28%."
+          ],
+          "links": [
+            {
+              "name": "Paper",
+              "href": "https://neurips.cc/virtual/2025/loc/san-diego/126604",
+              "icon": "file-text"
+            },
+            {
+              "name": "LoRA-Guided PPO",
+              "href": "https://github.com/JoshuaCongHu/lora-guided-ppo-neurips2025",
+              "icon": "github"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "University at Buffalo",
+      "href": "https://www.buffalo.edu",
+      "logo": "/img/ub.png",
+      "positions": [
+        {
+          "title": "Software Engineering Intern (CSE Department)",
+          "start": "Jan 2026",
+          "summary": "Scaling a code-tracing platform (800+ students, 15,000+ submissions) toward multi-university rollout.",
+          "description": [
+            "Refactoring a multi-institution code-tracing platform under guidance of a Vercel engineering lead; architecting a React + TypeScript + PostgreSQL stack with a Docker deployment pipeline for cross-university adoption.",
+            "Scaling the platform from 800+ students and 15,000+ submissions to multi-institution use, with 1 external university in late-stage adoption for Fall 2026 rollout and system outputs positioned for academic publication."
+          ],
+          "links": [
+            {
+              "name": "Live",
+              "href": "https://tracing.cse.buffalo.edu/",
+              "icon": "globe"
+            }
+          ]
+        },
+        {
+          "title": "Teaching Assistant",
+          "start": "Aug 2025",
+          "summary": "453+ students supported; mentee exam scores ~20% above class median.",
+          "description": [
+            "Supported 453+ students across labs, office hours, and grading; ran structured debugging workshops that lifted mentee exam scores ~20% above class median, and built tailored materials for non-native speakers and students with disabilities that cut assignment completion time 30%."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Amazon Web Services",
+      "href": "https://aws.amazon.com",
+      "logo": "/img/aws.png",
+      "positions": [
+        {
+          "title": "AI & ML Scholars (Agent Developer Track)",
+          "start": "Aug 2025",
+          "end": "Nov 2025",
+          "summary": "Top ~3% of 50,000+ participants; built a Bedrock claims-triage agent (+25% compliance pass rate).",
+          "description": [
+            "Selected for the fully-funded program as a top ~3% performer (top 1,500 of 50,000+ participants) based on technical assessment performance.",
+            "Built a health-claims triage agent on Amazon Bedrock with an S3 + Lambda ingestion pipeline, FAISS vector retrieval, and guardrails that raised the compliance-check pass rate ~25% over an unguarded baseline."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Data Science & Machine Learning Club, UB",
+      "href": "https://www.buffalo.edu",
+      "logo": "/img/ub-dsml.png",
+      "positions": [
+        {
+          "title": "Founder & President",
+          "start": "Jun 2025",
+          "summary": "Founded and grew the club to 120+ members; speakers sourced from Vercel, Amazon, and Google.",
+          "description": [
+            "Founded and scaled the club to 120+ members; secured partnerships with the UB AI/ML department to source speakers from Vercel, Amazon, and Google, and built real-world project briefs for 6+ technical workshops.",
+            "Managed a 6-person executive team and $1.5K+ annual budget, structuring operations across event logistics, outreach, and content planning to sustain weekly programming."
+          ]
+        }
+      ]
+    }
+  ]
+}

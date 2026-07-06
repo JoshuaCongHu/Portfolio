@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "name": "StructStudio",
+      "description": "Interactive code-visualization platform rendering real-time simulations of Trees, Heaps, and Graphs from raw program input. Shipped to production and adopted across theory-level CS courses at the University at Buffalo, including CSE 250 (Data Structures & Algorithms).",
+      "href": "https://cse.buffalo.edu/structstudio/",
+      "image": "/img/structstudio.png",
+      "video": "/videos/structstudio-demo.mp4",
+      "active": true,
+      "tags": [
+        "React",
+        "JavaScript",
+        "Canvas API",
+        "Google Analytics",
+        "Playwright"
+      ],
+      "links": [
+        {
+          "name": "Live",
+          "href": "https://cse.buffalo.edu/structstudio/",
+          "icon": "globe"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/JoshuaCongHu/dsa-visualizer",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "LoRA-Guided PPO",
+      "description": "NeurIPS 2025 Workshop paper (second author) on cost-aware multi-agent orchestration: a budget-aware controller learns which sub-agents to invoke on ToolBench, holding 100% task success.",
+      "href": "https://neurips.cc/virtual/2025/loc/san-diego/126604",
+      "image": "/img/lora-ppo-overview.png",
+      "metric": {
+        "value": "−12%",
+        "label": "inference cost-per-success vs. PPO baseline (24.30 → 21.40)"
+      },
+      "tags": ["PyTorch", "PPO", "LoRA", "Multi-Agent", "Reinforcement Learning"],
+      "links": [
+        {
+          "name": "Paper",
+          "href": "https://neurips.cc/virtual/2025/loc/san-diego/126604",
+          "icon": "file-text"
+        },
+        {
+          "name": "Source",
+          "href": "https://github.com/JoshuaCongHu/lora-guided-ppo-neurips2025",
+          "icon": "github"
+        }
+      ]
+    }
+  ]
+}

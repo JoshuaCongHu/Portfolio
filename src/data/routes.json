@@ -1,0 +1,34 @@
+{
+  "routes": [
+    {
+      "path": "/",
+      "name": "home",
+      "description": "Portfolio overview and featured projects",
+      "showInNav": true
+    },
+    {
+      "path": "/projects",
+      "name": "projects",
+      "description": "Portfolio projects showcase",
+      "showInNav": true
+    },
+    {
+      "path": "/contact",
+      "name": "contact",
+      "description": "Contact form",
+      "showInNav": true
+    },
+    {
+      "path": "/privacy",
+      "name": "privacy",
+      "description": "Privacy policy",
+      "showInNav": false
+    },
+    {
+      "path": "/resume.pdf",
+      "name": "resume",
+      "description": "Joshua's resume CV in pdf format",
+      "showInNav": false
+    }
+  ]
+}

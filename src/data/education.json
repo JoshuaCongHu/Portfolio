@@ -1,0 +1,29 @@
+{
+  "education": [
+    {
+      "name": "University at Buffalo",
+      "href": "https://www.buffalo.edu",
+      "logo": "/img/ub.png",
+      "positions": [
+        {
+          "title": "B.S. in Computer Science, Concentration: Intelligence, Modeling & Simulation",
+          "start": "Sep 2023",
+          "end": "May 2027",
+          "description": ["Expected graduation May 2027"]
+        }
+      ]
+    },
+    {
+      "name": "University of Toronto",
+      "href": "https://www.utoronto.ca",
+      "logo": "/img/uoft.png",
+      "positions": [
+        {
+          "title": "Bioinformatics & Data Science",
+          "start": "Sep 2023",
+          "end": "May 2024"
+        }
+      ]
+    }
+  ]
+}
