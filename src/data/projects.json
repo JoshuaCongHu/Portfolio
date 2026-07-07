@@ -2,7 +2,7 @@
   "projects": [
     {
       "name": "StructStudio",
-      "description": "Interactive code-visualization platform rendering real-time simulations of Trees, Heaps, and Graphs from raw program input. Shipped to production and adopted across theory-level CS courses at the University at Buffalo, including CSE 250 (Data Structures & Algorithms).",
+      "description": "Co-founded interactive code-visualization platform as an inaugural UB Forge fellow (1 of 14 from 250+ applicants), rendering real-time simulations of Trees, Heaps, and Graphs from raw program input. Shipped to production with sub-100ms render times at 300+ concurrent users, adopted across theory-level CS courses at the University at Buffalo, including CSE 250 (Data Structures & Algorithms).",
       "href": "https://cse.buffalo.edu/structstudio/",
       "image": "/img/structstudio.png",
       "video": "/videos/structstudio-demo.mp4",

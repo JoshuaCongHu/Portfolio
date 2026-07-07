@@ -6,12 +6,12 @@
       "logo": "/img/btt.png",
       "positions": [
         {
-          "title": "AI Fellow (Incoming)",
+          "title": "AI Fellow",
           "start": "May 2026",
           "end": "Apr 2027",
-          "summary": "Year-long Cornell Tech AI fellowship; industry challenge project with companies like Google and Snowflake.",
+          "summary": "Year-long Cornell Tech AI fellowship; industry challenge project with a partner company such as Google or Snowflake.",
           "description": [
-            "Selected for a year-long AI Fellowship with Cornell Tech: intensive ML Foundations training plus a team industry challenge project with companies including Google, Snowflake, and KPMG."
+            "Selected for a year-long AI Fellowship with Cornell Tech: intensive summer ML Foundations training plus a fall-spring team industry challenge project with a partner company such as Google, Snowflake, or KPMG."
           ]
         }
       ]
@@ -24,9 +24,10 @@
         {
           "title": "Software Engineering Intern",
           "start": "May 2026",
+          "end": "Aug 2026",
           "summary": "Cut ~60-70% of planned custom dev by re-platforming reporting onto Microsoft Fabric; 3.17B-row telemetry migration.",
           "description": [
-            "Redirected reporting platform from a custom CRUD stack to Microsoft Fabric/Power BI by evaluating 4 architecture options against stakeholder-prioritized criteria, eliminating ~60-70% of planned custom development and positioning the platform for AI-agent integration via Fabric-tagged data with LLM-driven reporting as a forward path.",
+            "Redirected the reporting platform to Microsoft Fabric/Power BI after evaluating 4 architectures, cutting ~60-70% of planned custom development and positioning the platform for LLM-driven reporting.",
             "Designed a strangler-fig migration from an aging on-prem SQL row-store to hybrid KQL/Eventhouse + SQL on Microsoft Fabric for 30,000+ IoT devices on a 3.17B-row telemetry workload; columnar ingest eliminates burst lock contention during mass RTU reconnection and delivers 5-8x storage compression."
           ]
         }
@@ -40,9 +41,9 @@
         {
           "title": "LLM Researcher Intern",
           "start": "May 2026",
-          "summary": "Building an LLM eval framework for multi-agent tool-calling cost vs. quality; paper under review.",
+          "summary": "LLM evaluation framework for cost-regularized agentic RL (GRPO); paper under review.",
           "description": [
-            "Built an LLM evaluation framework scoring multi-agent tool-calling on quality-vs-cost across 3 axes (task difficulty, agent heterogeneity, interaction structure); ran GRPO experiments quantifying the cost-accuracy trade-offs behind agent selection (paper under review)."
+            "Built an LLM evaluation framework for cost-regularized agentic RL (GRPO): a gated 6-experiment pipeline with oracle-validated measurement, Bonferroni-corrected statistical gates, and multi-seed reproducibility, plus an online guardrail that eases the cost penalty from live training signals to catch policy collapse early (paper under review)."
           ]
         },
         {
@@ -75,12 +76,12 @@
       "logo": "/img/ub.png",
       "positions": [
         {
-          "title": "Software Engineering Intern (CSE Department)",
+          "title": "Software Tooling Developer (CSE Department)",
           "start": "Jan 2026",
           "summary": "Scaling a code-tracing platform (800+ students, 15,000+ submissions) toward multi-university rollout.",
           "description": [
-            "Refactoring a multi-institution code-tracing platform under guidance of a Vercel engineering lead; architecting a React + TypeScript + PostgreSQL stack with a Docker deployment pipeline for cross-university adoption.",
-            "Scaling the platform from 800+ students and 15,000+ submissions to multi-institution use, with 1 external university in late-stage adoption for Fall 2026 rollout and system outputs positioned for academic publication."
+            "Refactoring a multi-institution code-tracing platform under guidance of a Notion engineer; architecting a React + TypeScript + PostgreSQL stack with a Docker deployment pipeline for cross-university adoption.",
+            "Scaling the platform from 800+ students and 15,000+ submissions to multi-institution use, with one external university in early evaluation for a potential Fall 2026 rollout and system outputs positioned for academic publication."
           ],
           "links": [
             {
@@ -95,7 +96,7 @@
           "start": "Aug 2025",
           "summary": "453+ students supported; mentee exam scores ~20% above class median.",
           "description": [
-            "Supported 453+ students across labs, office hours, and grading; ran structured debugging workshops that lifted mentee exam scores ~20% above class median, and built tailored materials for non-native speakers and students with disabilities that cut assignment completion time 30%."
+            "Supported 453+ students across labs, office hours, and grading; ran structured debugging workshops that lifted mentee exam scores ~20% above class median, and built tailored materials for non-native speakers and students with disabilities."
           ]
         }
       ]
@@ -111,7 +112,7 @@
           "end": "Nov 2025",
           "summary": "Top ~3% of 50,000+ participants; built a Bedrock claims-triage agent (+25% compliance pass rate).",
           "description": [
-            "Selected for the fully-funded program as a top ~3% performer (top 1,500 of 50,000+ participants) based on technical assessment performance.",
+            "Selected for the fully-funded program as a top ~3% performer (top 1,500 of 50,000+) based on performance.",
             "Built a health-claims triage agent on Amazon Bedrock with an S3 + Lambda ingestion pipeline, FAISS vector retrieval, and guardrails that raised the compliance-check pass rate ~25% over an unguarded baseline."
           ]
         }
@@ -125,9 +126,9 @@
         {
           "title": "Founder & President",
           "start": "Jun 2025",
-          "summary": "Founded and grew the club to 120+ members; speakers sourced from Vercel, Amazon, and Google.",
+          "summary": "Founded and grew the club to 120+ members; speakers sourced from Amazon, Google, and Tesla.",
           "description": [
-            "Founded and scaled the club to 120+ members; secured partnerships with the UB AI/ML department to source speakers from Vercel, Amazon, and Google, and built real-world project briefs for 6+ technical workshops.",
+            "Founded and scaled the club to 120+ members; secured partnerships with the UB AI/ML department to source speakers from Amazon, Google, and Tesla, and built real-world project briefs for 6+ technical workshops.",
             "Managed a 6-person executive team and $1.5K+ annual budget, structuring operations across event logistics, outreach, and content planning to sustain weekly programming."
           ]
         }
