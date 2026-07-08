@@ -4,7 +4,7 @@ Personal portfolio site for Joshua Hu, AI/ML Engineer. Built with Next.js, Tailw
 
 ## Live Site
 
-🌐 **[tedawfcom-main.vercel.app](https://tedawfcom-main.vercel.app)**
+🌐 **[joshuahu.dev](https://joshuahu.dev)**
 
 ## Features
 
